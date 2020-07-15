@@ -4,7 +4,7 @@
 #regex
 import re 
 
-text = 'My number is 415-555-4242'
+text = 'My number is 415-555'
 
 def isPhoneNumber(text):
     phoneNumRegex = re.compile(r'\d{3}-\d{3}-\d{4}')
